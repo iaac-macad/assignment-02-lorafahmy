@@ -83,8 +83,7 @@ function init () {
     loader.load( model, function ( object ) {
 
         //////////////////////////////////////////////
-        // apply material to meshes 
-        // this function reiterates every piece of the geometry to make sure everything it is applied to all elements of the model
+        // apply material to meshes
 
         object.traverse( function (child) { 
             if (child.isMesh) {

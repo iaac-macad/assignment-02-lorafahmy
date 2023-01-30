@@ -5,7 +5,6 @@ import { Rhino3dmLoader } from 'three/addons/loaders/3DMLoader.js'
 
 // declare variables to store scene, camera, and renderer
 let scene, camera, renderer
-// add "my model file" in the code's folder and change here with  "my model file" name
 const model = 'Rhino_Logo.3dm'
 
 // call functions
